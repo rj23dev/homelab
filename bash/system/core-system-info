@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+. /etc/os-release
+
+echo "OS: $NAME"
+echo "OS-version: $VERSION"
+echo "Kernel: $(uname -s)"
+echo "Kernel-version: $(uname -r)"
+echo "Uptime: $(uptime -p)"
+echo "Hostname: $(hostname)"
+echo "Logged in user: $(whoami)"
+ 
+
