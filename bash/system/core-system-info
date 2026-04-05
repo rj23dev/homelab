@@ -8,5 +8,3 @@ echo "Kernel-version: $(uname -r)"
 echo "Uptime: $(uptime -p)"
 echo "Hostname: $(hostname)"
 echo "Logged in user: $(whoami)"
- 
-
